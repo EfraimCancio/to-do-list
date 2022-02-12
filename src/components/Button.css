@@ -9,9 +9,11 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
-.add-task-button-container {
-    margin-left: 10px;
-    flex: 1;
+.button:hover {
+    background-color: #444;
+    color: chartreuse;
 }
+
